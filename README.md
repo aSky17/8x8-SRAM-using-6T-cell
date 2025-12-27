@@ -2,6 +2,12 @@
 
 This project presents the design and functional verification of a transistor-level 8×8 SRAM array implemented using traditional 6T CMOS cells in 90 nm GPDK technology. The design includes complete peripheral circuitry and was verified using Spectre simulations in Cadence Virtuoso.
 
+<p align="center">
+  <img src="schematics/sram_6t_cell.png" width="600"/>
+  <br>
+  <em>6T SRAM cell</em>
+</p>
+
 ## Architecture
 - 6T SRAM Cell (64 cells)
 - 3-to-8 Row Decoder
